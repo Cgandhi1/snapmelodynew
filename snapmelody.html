@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA=Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale =1">
+    <title>snapmelody</title>   
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="snapmelody.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+<body>
+<div class="grid-container">
+  <div class="Header">
+      <div class="clouds"></div>
+  </div>
+  <div class="Snapchat">
+      <img class="snapchat-logo btnglow" src="./images/snapchatlogo.jpg" alt="snapchat logo">
+  </div>
+  <div class="Logo">
+      <span class="neon">snap</span>
+        <span class="flux">Melody </span>
+  </div>
+  <div class="Donate">
+      <div id="donate-btn">Donate</div>
+  </div>
+  <div class="Carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+       <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <span class="artist">DRAKE &amp MIGOS (AUG. 17)</span>
+        <table class="countdownContainer">
+            <tr class="info">
+            <td colspan="4">Countdown</td>
+            </tr>
+            <tr class="ddhhmmss">
+                <td id="days">1</td>
+                <td id="hours">1</td>
+                <td id="minutes">1</td>
+                <td id="seconds">1</td>
+            </tr>
+            <tr class=ddhhmmss-text>
+                <td>Days</td>
+                <td>Hours</td>
+                <td>Minutes</td>
+                <td>Seconds</td>
+            </tr>
+        </table>
+      <img class="d-block w-100" src="./images/Drake.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+        <span class="artist">CHILDISH GAMBINO (SEPT. 08)</span>
+        <table class="countdownContainer">
+            <tr class="info">
+            <td colspan="4">Countdown</td>
+            </tr>
+            <tr class="ddhhmmss">
+                <td id="days2">120</td>
+                <td id="hours2">4</td>
+                <td id="minutes2">12</td>
+                <td id="seconds2">22</td>
+            </tr>
+            <tr class=ddhhmmss-text>
+                <td>Days</td>
+                <td>Hours</td>
+                <td>Minutes</td>
+                <td>Seconds</td>
+            </tr>
+        </table>
+      <img class="d-block w-100" src="./images/childishgambino.jpg" alt="Second slide">
+    </div>
+      <div class="carousel-item">
+         <span class="artist">MAROON 5 (SEPT. 14)</span>
+          <table class="countdownContainer">
+            <tr class="info">
+            <td colspan="4">Countdown</td>
+            </tr>
+            <tr class="ddhhmmss">
+                <td id="days3">120</td>
+                <td id="hours3">4</td>
+                <td id="minutes3">12</td>
+                <td id="seconds3">22</td>
+            </tr>
+            <tr class=ddhhmmss-text>
+                <td>Days</td>
+                <td>Hours</td>
+                <td>Minutes</td>
+                <td>Seconds</td>
+            </tr>
+        </table>
+      <img class="d-block w-100" src="./images/maroonfive.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+         <span class="artist">NICKI MINAJ &amp FUTURE (SEPT. 28)</span>
+        <table class="countdownContainer">
+            <tr class="info">
+            <td colspan="4">Countdown</td>
+            </tr>
+            <tr class="ddhhmmss">
+                <td id="days4">120</td>
+                <td id="hours4">4</td>
+                <td id="minutes4">12</td>
+                <td id="seconds4">22</td>
+            </tr>
+            <tr class=ddhhmmss-text>
+                <td>Days</td>
+                <td>Hours</td>
+                <td>Minutes</td>
+                <td>Seconds</td>
+            </tr>
+        </table>
+      <img class="d-block w-100" src="./images/Nicki_Minaj_sea_.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  </div>
+  <div class="MainDonate donatetype">
+      <h3>Donate Today!</h3>
+      <p>Your contribution will help towards buying seats to the next event!</p>
+  </div>
+  <div class="Venmo donate-optn">
+      <a href="https://venmo.com/ChiragG93" target="_blank"><img class="venmo-btn btnglow" src="./images/venmo-logo.gif" alt="Venmo"></a>
+    
+  </div>
+  <div class="PayPal donate-optn">
+      <a href="https://www.paypal.me/snapmelody" target="_blank"><img class="paypal-btn btnglow" src="./images/PayPal.jpg" alt="PayPal"></a>
+     
+  </div>
+  <div class="Google donate-optn">
+      <img class="Google-btn btnglow" src="./images/patreon.jpg" alt="Google Pay">
+      
+  </div>
+  <div class="Apple donate-optn">
+      <a href="https://cash.me/$ChiragG" target="_blank"><img class="Apple-btn btnglow" src="./images/cashapp.png" alt="Apple Pay"></a>
+  </div>
+  <div class="Subscription donatetype">
+      <h3>Contact</h3>
+      <p>contact@snapmelody.com</p>
+  </div>
+</div>
+    <script src="snapmelodytimer1.js"></script>
+</body>
+</html>
